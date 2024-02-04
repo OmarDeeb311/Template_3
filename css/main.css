@@ -5,6 +5,20 @@
   --yellow-color: #ffc400;
   --section-color: #eff7fa;
 }
+html {
+  scroll-behavior: smooth;
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #ddd;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--dark-color);
+  }
+}
+
 body {
   font-family: "poppins", sans-serif;
 }
